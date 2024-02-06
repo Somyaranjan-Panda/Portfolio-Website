@@ -82,7 +82,7 @@ const Experience = () => {
                         <TimelineItem>
                             <TimelineSeparator>
                             <TimelineDot variant='outlined' color='secondary'/>
-                            {index != experiences.length - 1 && <TimelineConnector />}
+                            {index !== experiences.length - 1 && <TimelineConnector />}
                             </TimelineSeparator>
                             <TimelineContent sx={{py: "6px", px: "10px"}}>
                               <ExperienceCard experience = {experience}/>
