@@ -3,6 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import styled, { useTheme } from 'styled-components';
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
+import { Bio } from '../../data/constants'; 
 
 const Nav = styled.div`
     background-color: ${({ theme }) => theme.card_light};
