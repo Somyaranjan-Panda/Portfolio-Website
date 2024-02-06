@@ -156,19 +156,19 @@ const Navbar = () => {
     const theme = useTheme();
     return (<Nav>
         <NavContainer>
-            <NavLogo to="/">
-                <a
-                    style={{
-                        display: "flex",
-                        alignItems: "center",
-                        color: "white",
-                        marginBottom: "20",
-                        cursor: "pointer",
-                    }}
-                >
-                    <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-                </a>
-            </NavLogo>
+            <NavLogo>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          color: "white",
+          marginBottom: "20",
+          cursor: "pointer",
+        }}
+      >
+    <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+  </div>
+</NavLogo>
             <MobileIcon>
                 <FaBars onClick={() => {
                     setOpen(!open);
