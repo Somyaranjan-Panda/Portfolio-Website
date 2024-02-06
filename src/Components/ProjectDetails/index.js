@@ -96,17 +96,6 @@ const Tag = styled.div`
     }
 `;
 
-const Members = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin: 12px 6px;
-    @media only screen and (max-width: 600px) {
-        margin: 4px 6px;
-    }
-`;
-
 const ButtonGroup = styled.div`
     display: flex;
     justify-content: flex-end;
