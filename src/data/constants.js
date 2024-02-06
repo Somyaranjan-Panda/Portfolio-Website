@@ -1,4 +1,3 @@
-import Logo from "../Image/Logo.jpg";
 
 export const Bio = {
   name: "Somyaranjan Panda",
