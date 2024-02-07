@@ -199,8 +199,8 @@ export const projects = [
       "https://github.com/Somyaranjan-Panda/Fake-news-Detection/blob/main/Fake-news-detection%20(1).png?raw=true",
     tags: ["Python", "Numpy", "Pandas", "", "Pickle", "React"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
+    github: "https://github.com/Somyaranjan-Panda/Fake-news-Detection",
+    webapp: "",
   },
 ];
 
