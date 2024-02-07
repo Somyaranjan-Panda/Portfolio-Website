@@ -101,6 +101,7 @@ const GithubButton = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     padding: 0px 20px;
     font-size: 1rem;
     font-weight: 500;
