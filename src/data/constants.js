@@ -202,6 +202,24 @@ export const projects = [
     github: "https://github.com/Somyaranjan-Panda/Fake-news-Detection",
     webapp: "",
   },
+
+  {
+    id: 3,
+    title: "News App",
+    date: "Aug 2022 Sept 2022",
+    description:
+      "It is an application in which user can read everyday updated news. It has classifications to separate different types of news. User can also search about a particular news and can read abput it in more detail.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    category: "web app",
+    github: "https://github.com/Somyaranjan-Panda/News-App",
+    webapp: "https://main--news-app-everyday.netlify.app/",
+  },
 ];
 
 export const TimeLineData = [
