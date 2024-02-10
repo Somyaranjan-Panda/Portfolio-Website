@@ -220,6 +220,29 @@ export const projects = [
     github: "https://github.com/Somyaranjan-Panda/News-App",
     webapp: "https://main--news-app-everyday.netlify.app/",
   },
+
+  {
+    id: 4,
+    title: "E-Commerce Website",
+    date: "Dec 2023 Jan 2024",
+    description:
+      "It is an E-Commerce application where people can see, select and can place order from the application. There is also an add to cart feature where you can add ur products to cart and can place order from there. Users can also see their ordered items from the order section.",
+    image:
+      "https://github.com/Somyaranjan-Panda/E-Commerce-Website/blob/main/E-Commerce.png?raw=true",
+    tags: [
+      "React.js",
+      "Redux",
+      "CSS",
+      "JavaScript",
+      "TailWind CSS",
+      "Material UI",
+      "Context API",
+      "FireBase"
+    ],
+    category: "web app",
+    github: "https://github.com/Somyaranjan-Panda/E-Commerce-Website",
+    webapp: "",
+  },
 ];
 
 export const TimeLineData = [
