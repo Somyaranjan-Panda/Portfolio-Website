@@ -154,7 +154,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 0,
     title: "Portfolio Website",
     date: "Dec 2023 - Dec 2023",
     description:
@@ -171,40 +171,7 @@ export const projects = [
     webapp: "https://main--somyaranjanpanda.netlify.app/",
   },
   {
-    id: 9,
-    title: "Food Ordering Web Application",
-    date: "Aug 2023 - Aug 2023",
-    description:
-      "It is an application through which an user can view select and order food from nearest restaurant. Added features like add to cart. User can increase the item count directly from the cart and can place order.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "React Js",
-      "Redux",
-      "TailWind CSS",
-    ],
-    category: "web app",
-    github: "https://github.com/Somyaranjan-Panda/Food-order-App",
-    webapp: "https://food-order-app10.netlify.app/",
-  },
-  
-  
-  {
-    id: 2,
-    title: "Fake News Detection",
-    date: "Aug 2021 - Oct 2021",
-    description:
-      "First the machine gets trained with test data which news is real and which is fake. Then it gets tested with actual data. I have used algorithms like Logistic Regression, Decision Tree Classification, Gradient Boosting Classifier, Random Forest Classifier. The best algorithm I got was Decision Tree Algorithm with 99% Accuracy.",
-    image:
-      "https://github.com/Somyaranjan-Panda/Fake-news-Detection/blob/main/Fake-news-detection%20(1).png?raw=true",
-    tags: ["Python", "Numpy", "Pandas", "", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/Somyaranjan-Panda/Fake-news-Detection",
-    webapp: "",
-  },
-
-  {
-    id: 3,
+    id: 1,
     title: "News App",
     date: "Aug 2022 Sept 2022",
     description:
@@ -221,6 +188,36 @@ export const projects = [
     webapp: "https://main--news-app-everyday.netlify.app/",
   },
 
+  {
+    id: 2,
+    title: "Food Ordering Web Application",
+    date: "Aug 2023 - Aug 2023",
+    description:
+      "It is an application through which an user can view select and order food from nearest restaurant. Added features like add to cart. User can increase the item count directly from the cart and can place order.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags: [
+      "React Js",
+      "Redux",
+      "TailWind CSS",
+    ],
+    category: "web app",
+    github: "https://github.com/Somyaranjan-Panda/Food-order-App",
+    webapp: "https://food-order-app10.netlify.app/",
+  }, 
+  {
+    id: 3,
+    title: "Fake News Detection",
+    date: "Aug 2021 - Oct 2021",
+    description:
+      "First the machine gets trained with test data which news is real and which is fake. Then it gets tested with actual data. I have used algorithms like Logistic Regression, Decision Tree Classification, Gradient Boosting Classifier, Random Forest Classifier. The best algorithm I got was Decision Tree Algorithm with 99% Accuracy.",
+    image:
+      "https://github.com/Somyaranjan-Panda/Fake-news-Detection/blob/main/Fake-news-detection%20(1).png?raw=true",
+    tags: ["Python", "Numpy", "Pandas", "", "Pickle", "React"],
+    category: "machine learning",
+    github: "https://github.com/Somyaranjan-Panda/Fake-news-Detection",
+    webapp: "",
+  },
   {
     id: 4,
     title: "E-Commerce Website",
